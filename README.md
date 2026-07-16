@@ -5,7 +5,7 @@ DevSynth is a real-time reactive sound profiling sandbox engineered using React 
 
 ## Preview
 ----------------------------------------------------------------------------------------
-![]()
+![](dev)
 
 ##  Technical Highlights Explored
 ----------------------------------------------------------------------------------------
