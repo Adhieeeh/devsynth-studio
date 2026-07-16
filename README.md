@@ -1,16 +1,11 @@
-# React + Vite
+# 🗛 DevSynth — Low-Level Digital Audio Workstation & Synth Core (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DevSynth is a real-time reactive sound profiling sandbox engineered using React components. It hooks straight into hardware sound nodes via the native HTML5 Web Audio API, compiling custom geometric frequencies onto dynamic hardware nodes, managing linear time envelope values (`gainNode`), and capturing low-level buffer parameters live.
 
-Currently, two official plugins are available:
+## ⚡ Technical Highlights Explored
+* 📻 **Web Audio Hardware Topologies:** Skips bulky external rendering suites entirely, creating native oscillator and filter node connections directly on the browser execution engine threads.
+* 🛡️ **Time-Series Audio Envelopes:** Synchronizes audio parameters cleanly within millisecond time stamps, executing linear ramp shifts to eliminate static click artifacts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Running Instructions
+1. Setup package assets: `npm install`
+2. Launch profiling console DAW: `npm run dev`
