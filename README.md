@@ -14,5 +14,7 @@ DevSynth is a real-time reactive sound profiling sandbox engineered using React 
 *  **Time-Series Audio Envelopes:** Synchronizes audio parameters cleanly within millisecond time stamps, executing linear ramp shifts to eliminate static click artifacts.
 
 ##  Running Instructions
+
+
 1. Setup package assets: `npm install`
 2. Launch profiling console DAW: `npm run dev`
